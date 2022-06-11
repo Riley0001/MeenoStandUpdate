@@ -383,7 +383,7 @@ game.Players[StandOwner].Chatted:Connect(function(msg)
 		elseif SummonMusic == "On" and not SummonMusicID == "Default" then
 			play(SummonMusicID, true, true)
 		end
-		local A_1 = "I'm Here Master. What Do You Need?" local A_2 = "All" local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest Event:FireServer(A_1, A_2) 
+		local A_1 = "I'm Here, Master" local A_2 = "All" local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest Event:FireServer(A_1, A_2) 
 		follow = true
 		barragepos = false
 		oranear = false
@@ -607,7 +607,7 @@ end)
 
 game.Players[StandOwner].Chatted:Connect(function(msg)
 	if msg == ("Vanish!") then
-		local A_1 = "Credits To rileyisfit 2222" local A_2 = "All" local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest Event:FireServer(A_1, A_2) 
+		local A_1 = "Vanishing!" local A_2 = "All" local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest Event:FireServer(A_1, A_2) 
 		if VanishAppear == "On" then
 			play(6546133414, true, true)
 		end
